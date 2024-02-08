@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Container from "../Container";
 import { Redressed } from "next/font/google";
+import SearchBar from "./SearchBar";
 
 const redressed = Redressed({subsets:["latin"], weight: ["400"]});
 const NavBar = () => {
@@ -22,7 +23,7 @@ const NavBar = () => {
                 md:gap-0
                 ">
                     <Link href="/" className={`${redressed.className} font-bold text-2xl`}>E-PawiShop</Link>
-                    <div className="hidden md:block">Search</div>
+                    <div className="hidden md:block"> <SearchBar/> </div>
                     <div className="
                     flex
                     items-center

@@ -33,12 +33,12 @@ const Footer = () => {
                 </FooterList>
                 <div className="w-full md:w-1/3 mb-6 md:mb-0">
                 <h3 className="text-base font-bold mb-2"> About Us</h3>
-                <p className="mb-2">Lorem ipsum dolor sit amet, tates minima 
+                <p className="mb-2 text-justify">Lorem ipsum dolor sit amet, tates minima 
                 numquam commodi saepe provident necessitatibus
                 Lorem ipsum dolor sit amet, tates mi
                 orem ipsum dolor sit amet, tates minima 
                 numquam commodi saepe provident necessitatibus
-                Lorem ipsum dolor sit amet, tates mifasfasfsafasfsafas.</p>
+                Lorem ipsum dolor sit amet</p>
                 <p>&copy; {new Date().getFullYear()} E-PawiShop. All rights reserved.</p>  
                 </div>
                 <FooterList>
